@@ -1,17 +1,18 @@
-
-import React from 'react';
-import '../App.css';
 import Banner from './Banner'
-import Cart from './Cart';
-import ShoppingList from './ShoppingList';
-
-
+import logo from '../assets/logo.png'
+// import Cart from './Cart'
+import ShoppingList from './ShoppingList'
 
 function App() {
   return (
-    <React.Fragment><Banner /><Cart /><ShoppingList /></React.Fragment>
-
-  );
+    <div>
+      <Banner>
+        <img src={logo} alt='La maison jungle' className='lmj-logo' />
+        <h1 className='lmj-title'>La maison jungle</h1>
+      </Banner>
+      <ShoppingList />
+    </div>
+  )
 }
 
-export default App;
+export default App
