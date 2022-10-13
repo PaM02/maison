@@ -9,7 +9,7 @@ import ShoppingList from './ShoppingList';
 
 function App() {
   return (
-    <div><Banner /><Cart /><ShoppingList /></div>
+    <React.Fragment><Banner /><Cart /><ShoppingList /></React.Fragment>
 
   );
 }
