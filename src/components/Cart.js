@@ -42,7 +42,7 @@ function Cart({ cart, updateCart }) {
 				className='lmj-cart-toggle-button'
 				onClick={() => setIsOpen(true)}
 			>
-				Ouvrir le Panier
+				Ouvrir le panier
 			</button>
 		</div>
 	)
