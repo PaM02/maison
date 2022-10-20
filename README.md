@@ -50,3 +50,6 @@ console.log(array3);
 // expected output: Array ["a", "b", "c", "d", "e", "f"]
 
 https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+
+***************************************************************************
+useState   nous renvoie une paire de valeurs dans un tableau de 2 éléments, que nous récupérons dans les variables  cart   et  updateCart   dans notre exemple. Le premier élément est la valeur actuelle, et le deuxième est une fonction qui permet de la modifier.
